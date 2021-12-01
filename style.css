@@ -491,6 +491,30 @@ p.header{
     background-color: #F8E9E2; 
 }
 
+.ws-footer-2 ul li a{
+    position: relative;
+    opacity: 0.7; 
+    font-family: "Bell Gothic"; 
+}
+
+.ws-footer-2 ul li a:after{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: #aaa;
+    height: 1px;
+}
+
+.ws-footer-2 ul li a:hover:after{
+    width: 100%;
+    opacity: 1;
+}
+
 .footer ul li a {
     position: relative;
     opacity: 0.7; 
@@ -537,3 +561,20 @@ p.header{
       text-align: center; 
       font-family: "Myanmar Sangam MN"; 
   }
+
+  .ab-im{
+      border-radius: 50%; 
+  }
+
+  .fling-minislide {width:50%; height:50%; padding-bottom: 50%; overflow:hidden; position:relative; 
+    align-items: center; margin: 0px auto}
+.fling-minislide img{ position:absolute; animation:fling-minislide 20s infinite; 
+    opacity:0; width: 100%; height: auto; align-items: center; }
+
+    @keyframes fling-minislide {25%{opacity:1;} 40%{opacity:0;}}
+.fling-minislide img:nth-child(4){animation-delay:0s;}
+.fling-minislide img:nth-child(3){animation-delay:5s;}
+.fling-minislide img:nth-child(2){animation-delay:10s;}
+.fling-minislide img:nth-child(1){animation-delay:15s;}
+
+
