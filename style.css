@@ -517,26 +517,23 @@ p.header{
       display: grid; 
       grid-template-columns: auto auto; 
       grid-template-rows: auto;  
-      margin: 0; 
-      padding: 0; 
-      text-align: center; 
   }
 
   .about-image{
       display: grid; 
       grid-column: 1/2; 
       grid-row: 1/2; 
-      max-width: 500px; 
-      margin: 0; 
-      padding: 0; 
-      width: 50%; 
+      animation: fadeIn 5s; 
   }
 
   .about-blurb{
-      display: grid; 
-      background-color: #FFF4F0; 
+      display: grid;  
       grid-column: 2/3; 
       grid-row: 1/2; 
-      width: 50%;
-      max-width: 500px;  
+      animation: fadeIn 5s; 
+  }
+
+  p{
+      text-align: center; 
+      font-family: "Myanmar Sangam MN"; 
   }
