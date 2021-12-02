@@ -579,10 +579,8 @@ p.header{
 
 @font-face{
     font-family: "Glamore";
-    src: url("css/fonts/Glamore.eot");
-    src: url("css/fonts/Glamore.woff") format("woff");
-    src: url("css/fonts/Glamore.otf") format("opentype");
-    src: url("css/fonts/Glamore.svg#filename") format("svg");
+    src: url("glamore-font/Glamore-VGyee.ttf");
+    src: url("glamore-font/Glamore-JRVvK.otf") format("opentype");
 }
 
 
