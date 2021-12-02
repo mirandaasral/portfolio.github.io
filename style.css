@@ -577,4 +577,12 @@ p.header{
 .fling-minislide img:nth-child(2){animation-delay:10s;}
 .fling-minislide img:nth-child(1){animation-delay:15s;}
 
+@font-face{
+    font-family: "Glamore";
+    src: url("css/fonts/Glamore.eot");
+    src: url("css/fonts/Glamore.woff") format("woff");
+    src: url("css/fonts/Glamore.otf") format("opentype");
+    src: url("css/fonts/Glamore.svg#filename") format("svg");
+}
+
 
